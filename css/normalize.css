@@ -1,0 +1,23 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+#typed {
+  /* margin-top: 15px;
+    margin-bottom: 5px; */
+  font-size: 25px;
+  display: flex;
+  color: rgba(229, 236, 243, 0.623);
+  /* align-items: center;
+    justify-content: center;
+    box-sizing: border-box; */
+}

@@ -1,0 +1,89 @@
+/* Header */
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+.demo-1 .large-header {
+  background-image: url("../img/demo-1-bg.jpg");
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  opacity: 1;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  opacity: 0.5;
+}
+
+.active {
+  background-color: rgb(50, 47, 70);
+  color: white;
+}
+
+h2 {
+  color: white;
+  background: transparent;
+}
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #cecccb;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.demo-1 .main-title {
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+  .demo-1 .main-title {
+    font-size: 3em;
+  }
+}
+
+ul {
+  color: aliceblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
